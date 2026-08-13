@@ -1,0 +1,72 @@
+.detail-head label {
+  display: block;
+  color: var(--muted);
+  font: 8px DM Mono;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.detail-head input,
+.detail-head select {
+  display: block;
+  margin-top: 8px;
+  padding: 7px 0;
+  border: 0;
+  border-bottom: 1px solid var(--navy);
+  outline: 0;
+  background: transparent;
+  color: var(--navy);
+}
+
+.detail-head input {
+  max-width: 220px;
+  font: 400 18px Newsreader;
+}
+
+.detail-head select {
+  color: #bd4e41;
+  font: 400 38px Newsreader;
+}
+
+.detail-head input:focus,
+.detail-head select:focus,
+.review-text:focus {
+  outline: 3px solid var(--coral);
+  outline-offset: 3px;
+}
+
+.review-copy {
+  display: block;
+  margin: 45px 0;
+  color: var(--muted);
+  font: 8px DM Mono;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.review-text {
+  display: block;
+  width: 100%;
+  min-height: 150px;
+  margin-top: 12px;
+  padding: 18px 20px;
+  resize: vertical;
+  border: 0;
+  border-left: 3px solid var(--coral);
+  outline: 0;
+  background: rgba(255, 255, 255, .35);
+  color: var(--navy);
+  font: 400 clamp(23px, 2.6vw, 39px)/1.2 Newsreader;
+  letter-spacing: -.02em;
+  text-transform: none;
+}
+
+@media (max-width: 520px) {
+  .detail-head {
+    gap: 18px;
+  }
+
+  .detail-head input {
+    max-width: 170px;
+  }
+}
