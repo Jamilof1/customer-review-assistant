@@ -2,6 +2,11 @@
 
 Triage customer reviews and prepare editable multilingual responses for approval. Project 08 in the Jamil Darwish Automation Lab.
 
+[![Verify](https://github.com/Jamilof1/customer-review-assistant/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Jamilof1/customer-review-assistant/actions/workflows/ci.yml)
+[View in Jamil Darwish's portfolio](https://jamildarwish.com/#automation-lab) · [MIT License](./LICENSE)
+
+![Customer Review Assistant interface](./public/preview.png)
+
 ## Modes
 
 - **Demo:** transparent local rules classify reviews and draft English, German, or Arabic replies.
